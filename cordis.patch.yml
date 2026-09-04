@@ -1,7 +1,7 @@
-﻿# dsh-token-rtk bundle patch layer.
+# dsh-token-rtk bundle patch layer.
 # One bundled skill (skills/rtk/SKILL.md); the skill-filesystem provider
 # collects a bundle's skills/ dir into the bundled skill root at install time.
 # No runtime tools are injected.
 - insert:
     - id: token-rtk
-      name: './src/index.js'
+      name: 'dsh-token-rtk'
